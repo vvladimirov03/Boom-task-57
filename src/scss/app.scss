@@ -19,11 +19,9 @@ html {
   background: $background;
 }
 
-.main {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10rem;
-  flex-flow: column;
+.chat {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  overflow: scroll;
 }
